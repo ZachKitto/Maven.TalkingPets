@@ -4,18 +4,18 @@ public class PetInfo {
 
 
     public String askHowManyPets() {
-        return null;
+        return "How many pets do you have?";
     }
 
     public String askTypeOfPet() {
-        return null;
+        return "Input the type of pet" ;
     }
 
     public String askNameOfPet() {
-        return null;
+        return "Input the name of the pet";
     }
 
     public String printNamesAndSpeak() {
-        return null;
+        return "";
     }
 }

@@ -13,26 +13,27 @@ public class Owner {
     }
 
     public Integer getNumberOfPets() {
-        return null;
+        return pets.size();
     }
 
     public void recordEachPet(String userInputName, String userInputType) {
+
     }
 
     public List<Pet> getListOfPets() {
-        return null;
+        return this.pets;
     }
 
     public String askHowManyPets() {
-        return null;
+        return "How many pets do you have?";
     }
 
     public String askTypeOfPet() {
-        return null;
+        return "Input the type of pet";
     }
 
     public String askNameOfPet() {
-        return null;
+        return "Input the name of the pet";
     }
 
     public String printNamesAndSpeak() {
